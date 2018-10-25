@@ -56,4 +56,4 @@ def stopNetwork():
 if __name__ == '__main__':
 	atexit.register(stopNetwork)
 	setLogLevel('info')
-startNetwork()
+	startNetwork()
